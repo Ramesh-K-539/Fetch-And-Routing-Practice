@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+}
+
+.blog-details-title {
+  color: black;
+  font-size: 44px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.author-pic {
+  height: 44px;
+  width: 44px;
+  border-radius: 22px;
+  margin-right: 10px;
+}
+
+.details-author-name {
+  color: #8e8e8e;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.blog-image {
+  height: 500px;
+  width: 100%;
+}
+
+.blog-content {
+  color: #2f4f4f;
+  font-size: 18px;
+  font-weight: 500;
+}
